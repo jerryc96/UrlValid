@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-PATH = 'C:/Users/jerry/PycharmProjects/ETLUrlValidator/input/urls.csv'
+PATH = ''
 
 def readCSV():
     spark = SparkSession.builder \
